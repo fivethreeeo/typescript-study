@@ -1,15 +1,7 @@
 
-7.1 타입 별칭 VS 인터페이스 
+7. 인터페이스
 
-1) 타입 별칭으로 작성한 구문 
-```ts
-type Poet = {
-    born : number;
-    name : string;
-};
-```
-
-2) 인터페이스로 작성한 구문
+인터페이스로 작성한 구문 예시 
 ```ts
 interface Poet {
     born : number;
